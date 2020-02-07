@@ -122,6 +122,195 @@ arbeidskravCplusplus/fast:
 	$(MAKE) -f CMakeFiles\arbeidskravCplusplus.dir\build.make CMakeFiles/arbeidskravCplusplus.dir/build
 .PHONY : arbeidskravCplusplus/fast
 
+Attack.obj: Attack.cpp.obj
+
+.PHONY : Attack.obj
+
+# target to build an object file
+Attack.cpp.obj:
+	$(MAKE) -f CMakeFiles\arbeidskravCplusplus.dir\build.make CMakeFiles/arbeidskravCplusplus.dir/Attack.cpp.obj
+.PHONY : Attack.cpp.obj
+
+Attack.i: Attack.cpp.i
+
+.PHONY : Attack.i
+
+# target to preprocess a source file
+Attack.cpp.i:
+	$(MAKE) -f CMakeFiles\arbeidskravCplusplus.dir\build.make CMakeFiles/arbeidskravCplusplus.dir/Attack.cpp.i
+.PHONY : Attack.cpp.i
+
+Attack.s: Attack.cpp.s
+
+.PHONY : Attack.s
+
+# target to generate assembly for a file
+Attack.cpp.s:
+	$(MAKE) -f CMakeFiles\arbeidskravCplusplus.dir\build.make CMakeFiles/arbeidskravCplusplus.dir/Attack.cpp.s
+.PHONY : Attack.cpp.s
+
+Character.obj: Character.cpp.obj
+
+.PHONY : Character.obj
+
+# target to build an object file
+Character.cpp.obj:
+	$(MAKE) -f CMakeFiles\arbeidskravCplusplus.dir\build.make CMakeFiles/arbeidskravCplusplus.dir/Character.cpp.obj
+.PHONY : Character.cpp.obj
+
+Character.i: Character.cpp.i
+
+.PHONY : Character.i
+
+# target to preprocess a source file
+Character.cpp.i:
+	$(MAKE) -f CMakeFiles\arbeidskravCplusplus.dir\build.make CMakeFiles/arbeidskravCplusplus.dir/Character.cpp.i
+.PHONY : Character.cpp.i
+
+Character.s: Character.cpp.s
+
+.PHONY : Character.s
+
+# target to generate assembly for a file
+Character.cpp.s:
+	$(MAKE) -f CMakeFiles\arbeidskravCplusplus.dir\build.make CMakeFiles/arbeidskravCplusplus.dir/Character.cpp.s
+.PHONY : Character.cpp.s
+
+CharacterCreator.obj: CharacterCreator.cpp.obj
+
+.PHONY : CharacterCreator.obj
+
+# target to build an object file
+CharacterCreator.cpp.obj:
+	$(MAKE) -f CMakeFiles\arbeidskravCplusplus.dir\build.make CMakeFiles/arbeidskravCplusplus.dir/CharacterCreator.cpp.obj
+.PHONY : CharacterCreator.cpp.obj
+
+CharacterCreator.i: CharacterCreator.cpp.i
+
+.PHONY : CharacterCreator.i
+
+# target to preprocess a source file
+CharacterCreator.cpp.i:
+	$(MAKE) -f CMakeFiles\arbeidskravCplusplus.dir\build.make CMakeFiles/arbeidskravCplusplus.dir/CharacterCreator.cpp.i
+.PHONY : CharacterCreator.cpp.i
+
+CharacterCreator.s: CharacterCreator.cpp.s
+
+.PHONY : CharacterCreator.s
+
+# target to generate assembly for a file
+CharacterCreator.cpp.s:
+	$(MAKE) -f CMakeFiles\arbeidskravCplusplus.dir\build.make CMakeFiles/arbeidskravCplusplus.dir/CharacterCreator.cpp.s
+.PHONY : CharacterCreator.cpp.s
+
+Formater.obj: Formater.cpp.obj
+
+.PHONY : Formater.obj
+
+# target to build an object file
+Formater.cpp.obj:
+	$(MAKE) -f CMakeFiles\arbeidskravCplusplus.dir\build.make CMakeFiles/arbeidskravCplusplus.dir/Formater.cpp.obj
+.PHONY : Formater.cpp.obj
+
+Formater.i: Formater.cpp.i
+
+.PHONY : Formater.i
+
+# target to preprocess a source file
+Formater.cpp.i:
+	$(MAKE) -f CMakeFiles\arbeidskravCplusplus.dir\build.make CMakeFiles/arbeidskravCplusplus.dir/Formater.cpp.i
+.PHONY : Formater.cpp.i
+
+Formater.s: Formater.cpp.s
+
+.PHONY : Formater.s
+
+# target to generate assembly for a file
+Formater.cpp.s:
+	$(MAKE) -f CMakeFiles\arbeidskravCplusplus.dir\build.make CMakeFiles/arbeidskravCplusplus.dir/Formater.cpp.s
+.PHONY : Formater.cpp.s
+
+GameManager.obj: GameManager.cpp.obj
+
+.PHONY : GameManager.obj
+
+# target to build an object file
+GameManager.cpp.obj:
+	$(MAKE) -f CMakeFiles\arbeidskravCplusplus.dir\build.make CMakeFiles/arbeidskravCplusplus.dir/GameManager.cpp.obj
+.PHONY : GameManager.cpp.obj
+
+GameManager.i: GameManager.cpp.i
+
+.PHONY : GameManager.i
+
+# target to preprocess a source file
+GameManager.cpp.i:
+	$(MAKE) -f CMakeFiles\arbeidskravCplusplus.dir\build.make CMakeFiles/arbeidskravCplusplus.dir/GameManager.cpp.i
+.PHONY : GameManager.cpp.i
+
+GameManager.s: GameManager.cpp.s
+
+.PHONY : GameManager.s
+
+# target to generate assembly for a file
+GameManager.cpp.s:
+	$(MAKE) -f CMakeFiles\arbeidskravCplusplus.dir\build.make CMakeFiles/arbeidskravCplusplus.dir/GameManager.cpp.s
+.PHONY : GameManager.cpp.s
+
+HP.obj: HP.cpp.obj
+
+.PHONY : HP.obj
+
+# target to build an object file
+HP.cpp.obj:
+	$(MAKE) -f CMakeFiles\arbeidskravCplusplus.dir\build.make CMakeFiles/arbeidskravCplusplus.dir/HP.cpp.obj
+.PHONY : HP.cpp.obj
+
+HP.i: HP.cpp.i
+
+.PHONY : HP.i
+
+# target to preprocess a source file
+HP.cpp.i:
+	$(MAKE) -f CMakeFiles\arbeidskravCplusplus.dir\build.make CMakeFiles/arbeidskravCplusplus.dir/HP.cpp.i
+.PHONY : HP.cpp.i
+
+HP.s: HP.cpp.s
+
+.PHONY : HP.s
+
+# target to generate assembly for a file
+HP.cpp.s:
+	$(MAKE) -f CMakeFiles\arbeidskravCplusplus.dir\build.make CMakeFiles/arbeidskravCplusplus.dir/HP.cpp.s
+.PHONY : HP.cpp.s
+
+NameValidator.obj: NameValidator.cpp.obj
+
+.PHONY : NameValidator.obj
+
+# target to build an object file
+NameValidator.cpp.obj:
+	$(MAKE) -f CMakeFiles\arbeidskravCplusplus.dir\build.make CMakeFiles/arbeidskravCplusplus.dir/NameValidator.cpp.obj
+.PHONY : NameValidator.cpp.obj
+
+NameValidator.i: NameValidator.cpp.i
+
+.PHONY : NameValidator.i
+
+# target to preprocess a source file
+NameValidator.cpp.i:
+	$(MAKE) -f CMakeFiles\arbeidskravCplusplus.dir\build.make CMakeFiles/arbeidskravCplusplus.dir/NameValidator.cpp.i
+.PHONY : NameValidator.cpp.i
+
+NameValidator.s: NameValidator.cpp.s
+
+.PHONY : NameValidator.s
+
+# target to generate assembly for a file
+NameValidator.cpp.s:
+	$(MAKE) -f CMakeFiles\arbeidskravCplusplus.dir\build.make CMakeFiles/arbeidskravCplusplus.dir/NameValidator.cpp.s
+.PHONY : NameValidator.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +347,27 @@ help:
 	@echo ... arbeidskravCplusplus
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Attack.obj
+	@echo ... Attack.i
+	@echo ... Attack.s
+	@echo ... Character.obj
+	@echo ... Character.i
+	@echo ... Character.s
+	@echo ... CharacterCreator.obj
+	@echo ... CharacterCreator.i
+	@echo ... CharacterCreator.s
+	@echo ... Formater.obj
+	@echo ... Formater.i
+	@echo ... Formater.s
+	@echo ... GameManager.obj
+	@echo ... GameManager.i
+	@echo ... GameManager.s
+	@echo ... HP.obj
+	@echo ... HP.i
+	@echo ... HP.s
+	@echo ... NameValidator.obj
+	@echo ... NameValidator.i
+	@echo ... NameValidator.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

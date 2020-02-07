@@ -80,6 +80,48 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/mathi/CLionProjects/arbeidskravCplusplus/Attack.cpp">
+			<Option target="arbeidskravCplusplus"/>
+		</Unit>
+		<Unit filename="C:/Users/mathi/CLionProjects/arbeidskravCplusplus/Attack.h">
+			<Option target="arbeidskravCplusplus"/>
+		</Unit>
+		<Unit filename="C:/Users/mathi/CLionProjects/arbeidskravCplusplus/Character.cpp">
+			<Option target="arbeidskravCplusplus"/>
+		</Unit>
+		<Unit filename="C:/Users/mathi/CLionProjects/arbeidskravCplusplus/Character.h">
+			<Option target="arbeidskravCplusplus"/>
+		</Unit>
+		<Unit filename="C:/Users/mathi/CLionProjects/arbeidskravCplusplus/CharacterCreator.cpp">
+			<Option target="arbeidskravCplusplus"/>
+		</Unit>
+		<Unit filename="C:/Users/mathi/CLionProjects/arbeidskravCplusplus/CharacterCreator.h">
+			<Option target="arbeidskravCplusplus"/>
+		</Unit>
+		<Unit filename="C:/Users/mathi/CLionProjects/arbeidskravCplusplus/Formater.cpp">
+			<Option target="arbeidskravCplusplus"/>
+		</Unit>
+		<Unit filename="C:/Users/mathi/CLionProjects/arbeidskravCplusplus/Formater.h">
+			<Option target="arbeidskravCplusplus"/>
+		</Unit>
+		<Unit filename="C:/Users/mathi/CLionProjects/arbeidskravCplusplus/GameManager.cpp">
+			<Option target="arbeidskravCplusplus"/>
+		</Unit>
+		<Unit filename="C:/Users/mathi/CLionProjects/arbeidskravCplusplus/GameManager.h">
+			<Option target="arbeidskravCplusplus"/>
+		</Unit>
+		<Unit filename="C:/Users/mathi/CLionProjects/arbeidskravCplusplus/HP.cpp">
+			<Option target="arbeidskravCplusplus"/>
+		</Unit>
+		<Unit filename="C:/Users/mathi/CLionProjects/arbeidskravCplusplus/HP.h">
+			<Option target="arbeidskravCplusplus"/>
+		</Unit>
+		<Unit filename="C:/Users/mathi/CLionProjects/arbeidskravCplusplus/NameValidator.cpp">
+			<Option target="arbeidskravCplusplus"/>
+		</Unit>
+		<Unit filename="C:/Users/mathi/CLionProjects/arbeidskravCplusplus/NameValidator.h">
+			<Option target="arbeidskravCplusplus"/>
+		</Unit>
 		<Unit filename="C:/Users/mathi/CLionProjects/arbeidskravCplusplus/main.cpp">
 			<Option target="arbeidskravCplusplus"/>
 		</Unit>
