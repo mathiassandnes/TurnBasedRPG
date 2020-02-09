@@ -9,23 +9,46 @@ using std::endl;
 
 
 void Formater::clear() {
-    for(int i = 0; i < 10; i++){
-        cout << endl << endl << endl << endl << endl << endl << endl << endl << endl;
+    cout << endl << endl << endl << endl << endl;
+}
+
+void Formater::displayPlayers(const std::vector<Character *> &players, bool withAttacks, bool withPlayerIndex) {
+    int playersLength = players.size();
+    for(int i = 0; i < playersLength; i++){
+        cout << "------------------------------------------------------------------" << endl;
+        if(withPlayerIndex){
+            printIndex(i);
+        }
+        cout << players[i]->getName() << " | " << players[i]->getTypeOfCharacter() << " | HP: " << players[i]->getHP() << " | AC: " << players[i]->getAC() << endl;
+        if(withAttacks){
+            cout << "Attacks:" << endl;
+            displayCharacterAttacks(*players[i], false, false);
+        }
+
     }
 }
 
-void Formater::displayPlayers(std::vector<Character> players) {
-    clear();
-    for(Character player : players){
-        cout << "name: " << player.getName() << " | HP: " << player.getHP() << " | AC: " << player.getAC() << endl;
-        cout << "Attacks:" << endl;
-        std::vector<Attack> attacks = player.getAttacks();
-        for(Attack attack : attacks){
-            cout << "name: " << attack.getName() << " | Damage: " << attack.getDamage() << " | Cooldown: " << attack.getCooldown() << endl;
+void Formater::printIndex(int i) { cout << "(" << i << ") "; }
+
+void Formater::displayCharacterAttacks(Character character, bool withActionIndex, bool withCurrentCooldown) {
+    std::vector<Attack*> attacks = character.getAttacks();
+    int attacksLength = attacks.size();
+    for(int i = 0; i < attacksLength; i++){
+        if(withActionIndex){
+            printIndex(i);
         }
-
-
-
+        displayCharacterAttack(attacks[i], withCurrentCooldown);
     }
+}
+
+void Formater::displayCharacterAttack(Attack * &attack, bool withCurrentCooldown = false) {
+    cout << attack->getName() << " | Damage: " << attack->getDamage();
+    if(withCurrentCooldown){
+        cout << " | Turn until next use: " << attack->getCooldown();
+    } else {
+        cout << " | Cooldown: " << attack->getDefaultCooldown();
+    }
+    cout << endl;
+
 }
 

@@ -14,7 +14,7 @@ class Attack {
 private:
     int m_damage;
     int m_cooldown;
-    int m_turnsSinceUse;
+    int m_turnsSinceUse = 0;
     std::string m_name;
 public:
     Attack(int damage, int cooldown, std::string name) : m_damage(damage), m_cooldown(cooldown), m_name(std::move(name)) {}
@@ -23,9 +23,10 @@ public:
     bool isReady();
 
     int getDamage();
+    int getDefaultCooldown();
     int getCooldown();
     int getTurnsSinceUse();
-    const std::string getName();
+    std::string getName();
 
 
 };

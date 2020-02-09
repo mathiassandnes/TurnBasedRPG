@@ -14,7 +14,13 @@
 class Formater {
 public:
     static void clear();
-    static void displayPlayers(std::vector<Character>);
+    static void displayPlayers(const std::vector<Character *> &players, bool withAttacks, bool withPlayerIndex = false);
+
+    static void displayCharacterAttacks(Character character, bool withActionIndex = false, bool withCurrentCooldown = false);
+
+    static void displayCharacterAttack(Attack * &attack, bool withCurrentCooldown);
+
+    static void printIndex(int i);
 };
 
 

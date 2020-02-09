@@ -7,6 +7,9 @@
 void HP::operator-=(int damage) {
     if ((damage -= m_AC) > 0)
         m_HP -= damage;
+    if (m_HP < 0){
+        m_HP = 0;
+    }
 }
 
 int HP::getHP() const {

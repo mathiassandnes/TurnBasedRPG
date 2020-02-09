@@ -203,6 +203,33 @@ CharacterCreator.cpp.s:
 	$(MAKE) -f CMakeFiles\arbeidskravCplusplus.dir\build.make CMakeFiles/arbeidskravCplusplus.dir/CharacterCreator.cpp.s
 .PHONY : CharacterCreator.cpp.s
 
+CharacterView.obj: CharacterView.cpp.obj
+
+.PHONY : CharacterView.obj
+
+# target to build an object file
+CharacterView.cpp.obj:
+	$(MAKE) -f CMakeFiles\arbeidskravCplusplus.dir\build.make CMakeFiles/arbeidskravCplusplus.dir/CharacterView.cpp.obj
+.PHONY : CharacterView.cpp.obj
+
+CharacterView.i: CharacterView.cpp.i
+
+.PHONY : CharacterView.i
+
+# target to preprocess a source file
+CharacterView.cpp.i:
+	$(MAKE) -f CMakeFiles\arbeidskravCplusplus.dir\build.make CMakeFiles/arbeidskravCplusplus.dir/CharacterView.cpp.i
+.PHONY : CharacterView.cpp.i
+
+CharacterView.s: CharacterView.cpp.s
+
+.PHONY : CharacterView.s
+
+# target to generate assembly for a file
+CharacterView.cpp.s:
+	$(MAKE) -f CMakeFiles\arbeidskravCplusplus.dir\build.make CMakeFiles/arbeidskravCplusplus.dir/CharacterView.cpp.s
+.PHONY : CharacterView.cpp.s
+
 Formater.obj: Formater.cpp.obj
 
 .PHONY : Formater.obj
@@ -311,6 +338,33 @@ NameValidator.cpp.s:
 	$(MAKE) -f CMakeFiles\arbeidskravCplusplus.dir\build.make CMakeFiles/arbeidskravCplusplus.dir/NameValidator.cpp.s
 .PHONY : NameValidator.cpp.s
 
+PlayerCharacter.obj: PlayerCharacter.cpp.obj
+
+.PHONY : PlayerCharacter.obj
+
+# target to build an object file
+PlayerCharacter.cpp.obj:
+	$(MAKE) -f CMakeFiles\arbeidskravCplusplus.dir\build.make CMakeFiles/arbeidskravCplusplus.dir/PlayerCharacter.cpp.obj
+.PHONY : PlayerCharacter.cpp.obj
+
+PlayerCharacter.i: PlayerCharacter.cpp.i
+
+.PHONY : PlayerCharacter.i
+
+# target to preprocess a source file
+PlayerCharacter.cpp.i:
+	$(MAKE) -f CMakeFiles\arbeidskravCplusplus.dir\build.make CMakeFiles/arbeidskravCplusplus.dir/PlayerCharacter.cpp.i
+.PHONY : PlayerCharacter.cpp.i
+
+PlayerCharacter.s: PlayerCharacter.cpp.s
+
+.PHONY : PlayerCharacter.s
+
+# target to generate assembly for a file
+PlayerCharacter.cpp.s:
+	$(MAKE) -f CMakeFiles\arbeidskravCplusplus.dir\build.make CMakeFiles/arbeidskravCplusplus.dir/PlayerCharacter.cpp.s
+.PHONY : PlayerCharacter.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -356,6 +410,9 @@ help:
 	@echo ... CharacterCreator.obj
 	@echo ... CharacterCreator.i
 	@echo ... CharacterCreator.s
+	@echo ... CharacterView.obj
+	@echo ... CharacterView.i
+	@echo ... CharacterView.s
 	@echo ... Formater.obj
 	@echo ... Formater.i
 	@echo ... Formater.s
@@ -368,6 +425,9 @@ help:
 	@echo ... NameValidator.obj
 	@echo ... NameValidator.i
 	@echo ... NameValidator.s
+	@echo ... PlayerCharacter.obj
+	@echo ... PlayerCharacter.i
+	@echo ... PlayerCharacter.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

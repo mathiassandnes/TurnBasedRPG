@@ -22,7 +22,7 @@ int Attack::getDamage(){
     return m_damage;
 }
 
-int Attack::getCooldown(){
+int Attack::getDefaultCooldown(){
     return m_cooldown;
 }
 
@@ -30,6 +30,11 @@ int Attack::getTurnsSinceUse(){
     return m_turnsSinceUse;
 }
 
-const std::string Attack::getName(){
+std::string Attack::getName(){
     return m_name;
+}
+
+int Attack::getCooldown() {
+    int cooldown = m_cooldown-m_turnsSinceUse;
+    return cooldown >= 0? cooldown : 0;
 }

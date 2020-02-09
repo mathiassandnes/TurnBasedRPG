@@ -98,6 +98,12 @@
 		<Unit filename="C:/Users/mathi/CLionProjects/arbeidskravCplusplus/CharacterCreator.h">
 			<Option target="arbeidskravCplusplus"/>
 		</Unit>
+		<Unit filename="C:/Users/mathi/CLionProjects/arbeidskravCplusplus/CharacterView.cpp">
+			<Option target="arbeidskravCplusplus"/>
+		</Unit>
+		<Unit filename="C:/Users/mathi/CLionProjects/arbeidskravCplusplus/CharacterView.h">
+			<Option target="arbeidskravCplusplus"/>
+		</Unit>
 		<Unit filename="C:/Users/mathi/CLionProjects/arbeidskravCplusplus/Formater.cpp">
 			<Option target="arbeidskravCplusplus"/>
 		</Unit>
@@ -120,6 +126,12 @@
 			<Option target="arbeidskravCplusplus"/>
 		</Unit>
 		<Unit filename="C:/Users/mathi/CLionProjects/arbeidskravCplusplus/NameValidator.h">
+			<Option target="arbeidskravCplusplus"/>
+		</Unit>
+		<Unit filename="C:/Users/mathi/CLionProjects/arbeidskravCplusplus/PlayerCharacter.cpp">
+			<Option target="arbeidskravCplusplus"/>
+		</Unit>
+		<Unit filename="C:/Users/mathi/CLionProjects/arbeidskravCplusplus/PlayerCharacter.h">
 			<Option target="arbeidskravCplusplus"/>
 		</Unit>
 		<Unit filename="C:/Users/mathi/CLionProjects/arbeidskravCplusplus/main.cpp">

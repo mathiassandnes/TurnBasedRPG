@@ -24,8 +24,8 @@ private:
 public:
     std::string decidePlayerName();
     playableClass decidePlayerClass();
-    Character createPlayerClass(playableClass characterClass, std::string characterName);
-    Character createPlayer();
+    Character* createPlayerClass(playableClass characterClass, std::string characterName);
+    Character* createPlayer();
 };
 
 
