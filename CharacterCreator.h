@@ -17,6 +17,7 @@ enum playableClass{
 };
 
 
+
 class CharacterCreator{
 private:
     std::vector<std::string> playableClassAsString = {"Wizard", "Orc", "Warrior", "Rouge"};

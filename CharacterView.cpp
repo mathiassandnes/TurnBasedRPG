@@ -13,4 +13,5 @@ void CharacterView::promptAction(Character &character) {
 
 void CharacterView::printStatus() {
 
+
 }

@@ -24,6 +24,7 @@ int Attack::getDamage(){
 
 int Attack::getDefaultCooldown(){
     return m_cooldown;
+
 }
 
 int Attack::getTurnsSinceUse(){
