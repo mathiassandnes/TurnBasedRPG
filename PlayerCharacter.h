@@ -10,8 +10,8 @@
 
 class PlayerCharacter {
 public:
-    void runTurn(Character &character, const std::vector<Character*>& team, const std::vector<Character*>& enemies);
-};
+    void runTurn(Character &character, const std::vector<Character *> &team, const std::vector<Character *> &enemies, bool NPC);
 
+};
 
 #endif //ARBEIDSKRAVCPLUSPLUS_PLAYERCHARACTER_H

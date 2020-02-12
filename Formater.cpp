@@ -15,7 +15,7 @@ void Formater::clear() {
 void Formater::displayPlayers(const std::vector<Character *> &players, bool withAttacks, bool withPlayerIndex) {
     int playersLength = players.size();
     for(int i = 0; i < playersLength; i++){
-        cout << "------------------------------------------------------------------" << endl;
+        cout << "-----------------------------------" << endl;
         if(withPlayerIndex){
             printIndex(i);
         }
@@ -26,6 +26,8 @@ void Formater::displayPlayers(const std::vector<Character *> &players, bool with
         }
 
     }
+    cout << "-----------------------------------" << endl << endl << endl;
+
 }
 
 void Formater::printIndex(int i) { cout << "(" << i << ") "; }

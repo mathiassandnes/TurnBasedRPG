@@ -99,35 +99,35 @@ Character* CharacterCreator::createPlayerClass(playableClass characterClass, std
     switch (characterClass){
         case Wizard: {
             character = new Character(100, 5, std::move(characterName), "Wizard");
-            character->addAttack(new Attack(100, 5, "Fire ball"));
-            character->addAttack(new Attack(50, 3, "Water blast"));
-            character->addAttack(new Attack(80, 4, "Tangling roots"));
-            character->addAttack(new Attack(10, 0, "Air burst"));
+            character->addAttack(new Attack(100, 3, "Fire ball"));
+            character->addAttack(new Attack(50, 1, "Water blast"));
+            character->addAttack(new Attack(80, 1, "Tangling roots"));
+            character->addAttack(new Attack(20, 0, "Air burst"));
             return character;
         }
 
         case Orc: {
             character = new Character(300, 20, std::move(characterName), "Orc");
-            character->addAttack(new Attack(100, 5, "Cleave"));
-            character->addAttack(new Attack(50, 3, "Blood lust"));
-            character->addAttack(new Attack(80, 4, "Axe throw"));
-            character->addAttack(new Attack(10, 0, "Crush"));
+            character->addAttack(new Attack(50, 1, "Cleave"));
+            character->addAttack(new Attack(80, 3, "Blood lust"));
+            character->addAttack(new Attack(40, 1, "Axe throw"));
+            character->addAttack(new Attack(15, 0, "Crush"));
             return character;
         }
         case Warrior: {
             character = new Character(200, 30, std::move(characterName), "Warrior");
-            character->addAttack(new Attack(100, 5, "Stab"));
-            character->addAttack(new Attack(50, 3, "Slash"));
-            character->addAttack(new Attack(80, 4, "Kick"));
+            character->addAttack(new Attack(80, 4, "Slash"));
+            character->addAttack(new Attack(50, 2, "Stab"));
+            character->addAttack(new Attack(30, 1, "Kick"));
             character->addAttack(new Attack(10, 0, "Punch"));
             return character;
             }
         case Rouge: {
             character = new Character(100, 40, std::move(characterName), "Rouge");
-            character->addAttack(new Attack(100, 5, "Backstab"));
-            character->addAttack(new Attack(50, 3, "Blade fury"));
-            character->addAttack(new Attack(80, 4, "Bow shot"));
-            character->addAttack(new Attack(10, 0, "Sneak strike"));
+            character->addAttack(new Attack(50, 2, "Backstab"));
+            character->addAttack(new Attack(80, 3, "Blade fury"));
+            character->addAttack(new Attack(60, 3, "Bow shot"));
+            character->addAttack(new Attack(25, 0, "Sneak strike"));
 
             return character;
         }

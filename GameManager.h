@@ -17,7 +17,8 @@ public:
     void createPlayers(int numberOfPlayers);
     void run();
 
-    void gameTurn(std::vector<Character *> &blueTeam, std::vector<Character *> &redTeam, int &teamSize, int &teamCounter) ;
+    void gameTurn(std::vector<Character *> &team, std::vector<Character *> &enemies, int &teamSize,
+                  int &teamCounter, bool isNPC);
 
     void removeDeadPlayersOnTeam(std::vector<Character *> &team, int &teamSize, int counter) const;
 };

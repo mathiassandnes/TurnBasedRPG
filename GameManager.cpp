@@ -58,22 +58,25 @@ void GameManager::run() {
     cin >> dummyString;
     Formater::clear();
 
-    int blueTeamSize = blueTeam.size()-1;
-    int redTeamSize = redTeam.size()-1;
+    int blueTeamSize = blueTeam.size() - 1;
+    int redTeamSize = redTeam.size() - 1;
     int blueTeamCounter = 0;
     int redTeamCounter = 0;
     bool blueTeamTurn = true;
 
     while (true) {
-        if(blueTeamTurn){
-            gameTurn(blueTeam, redTeam, blueTeamSize, blueTeamCounter);
+        if (blueTeamTurn) {
+            gameTurn(blueTeam, redTeam, blueTeamSize, blueTeamCounter, false);
         } else {
-            gameTurn(redTeam, blueTeam, redTeamSize, redTeamCounter);
+            gameTurn(redTeam, blueTeam, redTeamSize, redTeamCounter, true);
         }
         Formater::displayPlayers(players, false, false);
 
 
-        if(redTeam.empty() && blueTeam.empty()){
+        removeDeadPlayersOnTeam(redTeam, redTeamSize, redTeamCounter);
+        removeDeadPlayersOnTeam(blueTeam, blueTeamSize, blueTeamCounter);
+
+        if (redTeam.empty() && blueTeam.empty()) {
             Formater::clear();
             cout << "It's a draw" << endl;
             exit(0);
@@ -88,15 +91,18 @@ void GameManager::run() {
         }
 
         blueTeamTurn = !blueTeamTurn;
+
     }
 }
 
-void GameManager::gameTurn(std::vector<Character *> &team, std::vector<Character *> &enemies, int &teamSize, int &teamCounter) {
-    removeDeadPlayersOnTeam(team, teamSize, teamCounter);
-
-    team[teamCounter]->runTurn(team, enemies);
-
-    if(teamCounter == teamSize){
+void GameManager::gameTurn(std::vector<Character *> &team, std::vector<Character *> &enemies, int &teamSize,
+                           int &teamCounter, bool isNPC) {
+    if(isNPC){
+        team[teamCounter]->runTurn(team, enemies, isNPC);
+    } else {
+        team[teamCounter]->runTurn(team, enemies, isNPC);
+    }
+    if (teamCounter == teamSize) {
         teamCounter = 0;
     } else {
         teamCounter++;
@@ -105,9 +111,9 @@ void GameManager::gameTurn(std::vector<Character *> &team, std::vector<Character
 
 void GameManager::removeDeadPlayersOnTeam(std::vector<Character *> &team, int &teamSize, int counter) const {
     int teamCounter = counter;
-    for(int i = 0; i <= teamSize; i++){
+    for (int i = 0; i <= teamSize; i++) {
         if (!team[teamCounter]->isAlive()) {
-            team.erase(team.begin()+teamCounter);
+            team.erase(team.begin() + teamCounter);
             teamSize--;
         }
     }

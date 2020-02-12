@@ -40,7 +40,8 @@ const std::string &Character::getTypeOfCharacter() const {
     return m_typeOfCharacter;
 }
 
-void Character::runTurn(const std::vector<Character *>& team, const std::vector<Character *>& enemies) {
+void Character::runTurn(const std::vector<Character *>& team, const std::vector<Character *>& enemies, bool isNPC) {
     PlayerCharacter pc;
-    pc.runTurn(*this, team, enemies);
+    pc.runTurn(*this, team, enemies, isNPC);
 }
+

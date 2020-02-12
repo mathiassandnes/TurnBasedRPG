@@ -26,7 +26,7 @@ public:
     m_name(std::move(name)),
     m_typeOfCharacter(std::move(type)){};
     void takeDamage(int damage);
-    void runTurn(const std::vector<Character*>& team, const std::vector<Character*>& enemies);
+    void runTurn(const std::vector<Character*>& team, const std::vector<Character*>& enemies, bool isNPC);
     std::string getName();
     std::vector<Attack *> getAttacks();
     void addAttack(Attack * attack);
